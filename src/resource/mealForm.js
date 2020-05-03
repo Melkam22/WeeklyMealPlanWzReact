@@ -46,7 +46,7 @@ mealFormFunction(){
 
   render(){
   return (
-    <form onSubmit={this.handleSubmit}>
+    <form onSubmit={this.handleSubmit} autoComplete="off">
            <input name="weeklyMeal" placeholder="Weekly meal plan" value={this.state.weeklyMeal}
            onChange={this.handleChange} />
 
@@ -59,7 +59,7 @@ mealFormFunction(){
             <input name="dinner" placeholder="dinner" value={this.state.dinner}
            onChange={this.handleChange} />
 
-           <button type="submit">Submit</button>
+           <button id="btn" type="submit">Submit</button>
 
           {/*  <a class="btn-floating btn-large waves-effect waves-light red"> <i class="fa fa-plus-circle" aria-hidden="true"></i> </a> */}
     </form>

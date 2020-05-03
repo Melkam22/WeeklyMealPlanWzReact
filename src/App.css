@@ -1,1 +1,21 @@
- 
+ form{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 50%;
+     margin-left: 25%;
+     background: rgba(11,23,66,.5);
+     padding-left: 3%;
+     padding-right: 3%;
+ }
+
+  
+ #btn{
+     width: 120px;
+     height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: none;
+ }
