@@ -29,19 +29,21 @@ class MealList extends Component {
   return (
       <div>
            <h1>MealList</h1>
+           <hr />
         <MealForm addEditDelete={this.addEditDelete}/>
 
-        <hr />
+        
+
         {/* map & to table added */}
         <table>
             <tbody>
                 {this.state.meal.map((myItems, a)=>{
                     return(
                     <tr key={a}>
-                        <td>{myItems}</td>
-                         <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>{myItems.weeklyMeal}</td>
+                         <td>{myItems.breakfast}</td>
+                        <td>{myItems.lunch}</td>
+                        <td>{myItems.dinner}</td>
                     </tr>
                     )
                 })}
