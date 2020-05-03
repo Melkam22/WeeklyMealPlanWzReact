@@ -25,6 +25,23 @@ class MealList extends Component {
             })
     }
 
+    editItem = (a) =>{
+        this.setState({
+            currentIndex: a
+        })
+    }
+
+    deleteItem = (a) =>{
+        let meal = this.mealFunction()
+        meal.splice(a, 1)
+        {localStorage.setItem('mealPlan', JSON.stringify(meal))
+        this.setState({
+            meal: meal,
+            currentIndex: -1
+        })
+    }
+}
+
   render(){
   return (
       <div>
