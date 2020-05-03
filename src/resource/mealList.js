@@ -30,7 +30,10 @@ class MealList extends Component {
       <div>
            <h1>MealList</h1>
            <hr />
-        <MealForm addEditDelete={this.addEditDelete}/>
+        <MealForm addEditDelete={this.addEditDelete} 
+            meal={this.state.meal}
+            currentIndex={this.state.currentIndex}
+        />
 
         
 

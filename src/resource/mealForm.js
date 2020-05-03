@@ -3,19 +3,19 @@ import React, { Component } from 'react';
 
 class MealForm extends Component {
 
-     state = {
+     /* state = {
                 weeklyMeal: '',
                 breakfast: '',
                 lunch: '',
                 dinner: ''
-    }  
+    }   */
 
-/* state = {
+state = {
         ... this.mealFormFunction()
 }
 
 mealFormFunction(){
-        if(this.props.currentIndex === -1)
+        if(this.props.currentIndex == -1)
             return{
                 weeklyMeal: '',
                 breakfast: '',
@@ -30,8 +30,8 @@ mealFormFunction(){
         this.setState({
             ... this.mealFormFunction()
         })
-    } 
- */
+    }  
+ 
     handleChange = (e) =>{
         this.setState({
             [e.target.name] : e.target.value
