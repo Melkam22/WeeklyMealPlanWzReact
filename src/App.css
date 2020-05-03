@@ -1,3 +1,20 @@
+/* list style */
+#edit{
+    width: 120px;
+    min-height: 40px;
+    background: rgba(0,255,0, .5);
+    border: none;
+    margin-left: 1%;
+}
+#delete{
+    width: 120px;
+    height: 40px;
+    background: rgba(255,0,0, .5);
+    border: none;
+    margin-left: 1%;
+}
+ 
+ /* form style*/
  form{
      display: flex;
      flex-direction: column;
@@ -13,9 +30,28 @@
   
  #btn{
      width: 120px;
-     height: 40px;
+     min-height: 40px;
      display: flex;
      align-items: center;
      justify-content: center;
      border: none;
  }
+ #table{
+     width: 90%;
+     margin-left: 5%;
+ }
+ #td1{
+     border-bottom: 1px solid blue;
+     border-right: 1px solid blue;
+     background: rgba(11,23,66,.5);
+     color: white;
+     margin-left: 1%;
+ }
+ #td{
+    border-bottom: 1px solid blue;
+    border-right: 1px solid blue;
+    margin-left: 1%;
+}
+h1{
+    text-align: center;
+}

@@ -45,7 +45,7 @@ class MealList extends Component {
   render(){
   return (
       <div>
-           <h1>MealList</h1>
+           <h1>Weekly Meal List</h1>
            <hr />
         <MealForm addEditDelete={this.addEditDelete} 
             meal={this.state.meal}
@@ -55,17 +55,17 @@ class MealList extends Component {
         
 
         {/* map & to table added */}
-        <table>
+        <table id="table">
             <tbody>
                 {this.state.meal.map((myItems, a)=>{
                     return(
                     <tr key={a}>
-                        <td>{myItems.weeklyMeal}</td>
-                         <td>{myItems.breakfast}</td>
-                        <td>{myItems.lunch}</td>
-                        <td>{myItems.dinner}</td>
-                        <td><button onClick={()=>this.editItem(a)}>Edit</button>
-                        <button onClick={()=>this.deleteItem(a)}>Delete</button>
+                        <td id="td1">{myItems.weeklyMeal}</td>
+                         <td id="td">{myItems.breakfast}</td>
+                        <td id="td">{myItems.lunch}</td>
+                        <td id="td">{myItems.dinner}</td>
+                        <td><button id="edit" onClick={()=>this.editItem(a)}>Edit</button>
+                        <button id="delete" onClick={()=>this.deleteItem(a)}>Delete</button>
                         </td>
                     </tr>
                     )
