@@ -15,7 +15,7 @@ class MealList extends Component {
 
     addEditDelete = (data) =>{
         let meal = this.mealFunction();
-        if(this.state.currentIndex == -1)//nothing there, add data
+        if(this.state.currentIndex === -1)//nothing there, add data
         meal.push(data)
             else meal[this.state.currentIndex] = data//the current data remains the same
             localStorage.setItem('mealPlan', JSON.stringify(meal))
@@ -32,6 +32,21 @@ class MealList extends Component {
         <MealForm addEditDelete={this.addEditDelete}/>
 
         <hr />
+        {/* map & to table added */}
+        <table>
+            <tbody>
+                {this.state.meal.map((myItems, a)=>{
+                    return(
+                    <tr key={a}>
+                        <td>{myItems}</td>
+                         <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    )
+                })}
+            </tbody>
+        </table>
     
       </div>
      
