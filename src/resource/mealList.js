@@ -47,6 +47,9 @@ class MealList extends Component {
                          <td>{myItems.breakfast}</td>
                         <td>{myItems.lunch}</td>
                         <td>{myItems.dinner}</td>
+                        <td><button onClick={()=>this.editItem(a)}>Edit</button>
+                        <button onClick={()=>this.deleteItem(a)}>Delete</button>
+                        </td>
                     </tr>
                     )
                 })}
