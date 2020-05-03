@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import MealForm from './resource/mealForm';
 
 class MealList extends Component {
 
   render(){
   return (
-     <h1>MealList</h1>
-    
+      <div>
+           <h1>MealList</h1>
+        <MealForm />
+      </div>
+     
   );
 }
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
+import MealList from './resource/mealList';
+ 
 
 class App extends Component {
 
@@ -7,6 +9,7 @@ class App extends Component {
   return (
     <div className="App">
      <h1>Weekly Meal Plan with React</h1>
+      <MealList />
     </div>
   );
 }
