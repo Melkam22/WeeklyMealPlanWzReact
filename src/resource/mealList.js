@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
-import MealForm from './resource/mealForm';
+import MealForm from './mealForm';
 
 class MealList extends Component {
 
@@ -9,6 +8,9 @@ class MealList extends Component {
       <div>
            <h1>MealList</h1>
         <MealForm />
+
+        <hr />
+    
       </div>
      
   );
