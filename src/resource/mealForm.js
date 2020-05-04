@@ -47,17 +47,18 @@ mealFormFunction(){
   render(){
   return (
     <form onSubmit={this.handleSubmit} autoComplete="off">
+        <p className="icon"><a href="https://www.chefkoch.de/" target="_blank"><i class="fa fa-cutlery" aria-hidden="true"></i></a></p>
            <input name="weeklyMeal" placeholder="Weekly meal plan" value={this.state.weeklyMeal}
-           onChange={this.handleChange} />
+           onChange={this.handleChange} className="input"/>
 
             <input name="breakfast" placeholder="Breakfast" value={this.state.breakfast}
-           onChange={this.handleChange} />
+           onChange={this.handleChange} className="input" />
 
             <input name="lunch" placeholder="lunch" value={this.state.lunch}
-           onChange={this.handleChange} />
+           onChange={this.handleChange} className="input" />
 
             <input name="dinner" placeholder="dinner" value={this.state.dinner}
-           onChange={this.handleChange} />
+           onChange={this.handleChange} className="input" />
 
            <button id="btn" type="submit">Submit</button>
 
