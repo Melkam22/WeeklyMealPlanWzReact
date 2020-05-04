@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.5341886a.chunk.css",
+    "main.css": "./static/css/main.cffb19cf.chunk.css",
     "main.js": "./static/js/main.37792b1c.chunk.js",
     "main.js.map": "./static/js/main.37792b1c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d16e3db3.js",
@@ -8,16 +8,16 @@
     "static/js/2.042c549b.chunk.js": "./static/js/2.042c549b.chunk.js",
     "static/js/2.042c549b.chunk.js.map": "./static/js/2.042c549b.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.af9831935ef1c28daa821898bbbf7f33.js": "./precache-manifest.af9831935ef1c28daa821898bbbf7f33.js",
+    "precache-manifest.482dbd937c01166e3b5749dfe919084b.js": "./precache-manifest.482dbd937c01166e3b5749dfe919084b.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.5341886a.chunk.css.map": "./static/css/main.5341886a.chunk.css.map",
+    "static/css/main.cffb19cf.chunk.css.map": "./static/css/main.cffb19cf.chunk.css.map",
     "static/js/2.042c549b.chunk.js.LICENSE.txt": "./static/js/2.042c549b.chunk.js.LICENSE.txt",
     "static/media/App.css": "./static/media/foodPrep1.86ad99a5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d16e3db3.js",
     "static/js/2.042c549b.chunk.js",
-    "static/css/main.5341886a.chunk.css",
+    "static/css/main.cffb19cf.chunk.css",
     "static/js/main.37792b1c.chunk.js"
   ]
 }
