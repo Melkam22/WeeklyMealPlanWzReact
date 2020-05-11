@@ -48,7 +48,7 @@ mealFormFunction(){
   return (
     <form onSubmit={this.handleSubmit} autoComplete="off">
         <p className="icon"><a href="https://www.chefkoch.de/" target="_blank"><i class="fa fa-cutlery" aria-hidden="true"></i></a></p>
-           <input name="weeklyMeal" placeholder="Weekly meal plan" value={this.state.weeklyMeal}
+           <input name="weeklyMeal" placeholder="Day of The Week" value={this.state.weeklyMeal}
            onChange={this.handleChange} className="input"/>
 
             <input name="breakfast" placeholder="Breakfast" value={this.state.breakfast}
