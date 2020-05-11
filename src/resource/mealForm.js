@@ -54,10 +54,10 @@ mealFormFunction(){
             <input name="breakfast" placeholder="Breakfast" value={this.state.breakfast}
            onChange={this.handleChange} className="input" />
 
-            <input name="lunch" placeholder="lunch" value={this.state.lunch}
+            <input name="lunch" placeholder="Lunch" value={this.state.lunch}
            onChange={this.handleChange} className="input" />
 
-            <input name="dinner" placeholder="dinner" value={this.state.dinner}
+            <input name="dinner" placeholder="Dinner" value={this.state.dinner}
            onChange={this.handleChange} className="input" />
 
            <button id="btn" type="submit">Submit</button>
